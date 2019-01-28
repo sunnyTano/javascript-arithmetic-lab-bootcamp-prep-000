@@ -14,21 +14,18 @@ function divide(a,b){
   return a / b;
 }
 
+function inc(n){
+  return n + 1;
+}
+
+function dec(n){
+  return n - 1;
+}
+
+function makeInt(n){
+  return parseInt(n, 10)
+}
 /*
-var a, b
-
-
-
-
-
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
-
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
-
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
